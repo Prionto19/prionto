@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "IcoMoon";
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.woff") format("woff"),
+    url("../fonts/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon.svg#IcoMoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-uiux:before {
+  content: "\e900"; /* This Unicode value should match the one assigned by IcoMoon */
+  font-family: "IcoMoon";
+}
+.icon-coding:before {
+  content: "\e91";
+}
+.icon-bdCalling-White:before {
+  content: "\e901";
+}
